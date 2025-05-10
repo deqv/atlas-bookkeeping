@@ -3,131 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Atlas Bookkeeping - Minimal Style</title>
+  <title>Atlas Bookkeeping</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
-      color: #2E3A59;
+      line-height: 1.6;
+      background-color: #f9fafb;
+      color: #111827;
     }
     header {
-      background: #2E3A59;
+      background-color: #1f2937;
       color: white;
-      padding: 50px 20px;
-      text-align: center;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin: 10px 0 20px;
-    }
-    .cta-button {
-      background: #FFD700;
-      color: black;
-      padding: 12px 24px;
-      border-radius: 5px;
+    nav a {
+      margin-left: 1.5rem;
+      color: white;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
     }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-      background: white;
-      margin-top: 20px;
-      border-radius: 10px;
-    }
-    h2 {
-      color: #2E3A59;
-      border-bottom: 2px solid #FFD700;
-      padding-bottom: 10px;
-    }
-    ul, ol {
-      padding-left: 20px;
-    }
-    .profile-pic {
-      width: 160px;
-      border-radius: 50%;
-      display: block;
-      margin: 20px auto;
-    }
-    .contact-info {
+    .hero {
+      background-color: #e5e7eb;
+      padding: 4rem 2rem;
       text-align: center;
-      margin: 30px auto;
-      font-size: 1.1em;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .button {
+      background-color: #2563eb;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 0.375rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .section ul {
+      padding-left: 1.25rem;
     }
     footer {
+      background-color: #1f2937;
+      color: white;
       text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #888;
+      padding: 1rem;
+      font-size: 0.875rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Atlas Bookkeeping</h1>
-    <p>Accurate Books. Clear Reports. Zero Stress.</p>
-    <a href="https://calendly.com/varunsuresh" class="cta-button">Book Your Free Consultation</a>
+    <div><strong>Atlas Bookkeeping</strong></div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#resources">Blog</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#book" class="button">Book a Free Call</a>
+    </nav>
   </header>
 
-  <section>
-    <h2>What You Get</h2>
+  <section class="hero">
+    <h1>Bookkeeping That Lowers Your Taxes and Lifts Your Burden</h1>
+    <p>Serving home service pros in plumbing, HVAC, and beyond.</p>
+    <a href="#book" class="button">Book a Free Call</a>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Services</h2>
     <ul>
-      <li>Full Monthly Bookkeeping in QuickBooks</li>
-      <li>Bank & Credit Card Reconciliations</li>
-      <li>Monthly Financial Statements</li>
-      <li>CPA-Ready Books</li>
-      <li>End-of-Year Tax Package</li>
-      <li>Custom Reports, including summary of Key Performance Indicators (KPIs) and supply and labor reports</li>
+      <li><strong>Monthly Bookkeeping</strong> – Reconciliation, categorization, financial reporting</li>
+      <li><strong>Catch-Up & Clean-Up Projects</strong> – Fast turnaround for backlogged books</li>
+      <li><strong>Tax Strategy Planning</strong> – Optional quarterly strategy sessions</li>
+    </ul>
+    <p>Most clients pay $300–$600/month. Let's customize a plan that fits your business.</p>
+  </section>
+
+  <section class="section" id="resources">
+    <h2>Free Resources</h2>
+    <ul>
+      <li><a href="#">Almost Zero in Taxes</a></li>
+      <li><a href="#">M&A Reality: What Home Service Owners Should Know</a></li>
+      <li><a href="#">Clean Books = Less Taxes and Fewer Headaches</a></li>
+      <li><a href="#">15 Tax Deductions and Optimization Tactics</a></li>
+      <li><a href="#">Should You Set Up an S-Corp?</a></li>
     </ul>
   </section>
 
-  <section>
-    <h2>How It Works</h2>
-    <ol>
-      <li>Book a Free Call — Let’s talk about your business.</li>
-      <li>Get a Clear Plan — I’ll show you how I can help.</li>
-      <li>Let Me Handle the Books — You focus on running your business.</li>
-    </ol>
+  <section class="section" id="about">
+    <h2>About</h2>
+    <p>Hi, I’m Varun — and I help home service business owners pay less in taxes, stay audit-proof, and finally understand their numbers.</p>
+    <p>Before founding Atlas Bookkeeping, I worked as an acquisition specialist helping small businesses sell. The #1 issue? Messy books that lowered business valuations and scared off buyers.</p>
+    <p>That’s why I transitioned into accounting. Today, I specialize in monthly bookkeeping and tax optimization for service businesses like plumbing, HVAC, and electrical. I hold a Master’s in Accounting, QuickBooks ProAdvisor certification, and I’m on track to complete my CPA.</p>
+    <p>I only take on a few clients at a time so I can give each one focused attention and real results. If you're earning good money but unsure where it all goes—or worried you're overpaying the IRS—we should talk.</p>
   </section>
 
-  <section>
-    <h2>Why Atlas?</h2>
-    <ul>
-      <li>QuickBooks ProAdvisor Certified</li>
-      <li>CPA Candidate with Hands-On Experience</li>
-      <li>Work Directly with Me — No Outsourcing</li>
-      <li>Flat Monthly Pricing — No Surprises</li>
-      <li>Fast, Responsive Support</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>About the Owner-Operator</h2>
-    <img src="Profile_Pic.jpg" alt="Varun Suresh" class="profile-pic" />
-    <p>
-      Hi, I’m Varun Suresh — the founder of Atlas Bookkeeping.
-      Before starting this firm, I worked as an investment advisor in the small business M&A space. One of the biggest issues I saw was that business owners often had messy or incomplete books — and that meant their businesses were undervalued when it came time to sell.
-    </p>
-    <p>
-      I transitioned from advising to accounting so I could help business owners where it really counts: the numbers. 
-    </p>
-    <p>
-      I’m a CPA candidate with a Masters in Accounting and QuickBooks ProAdvisor certification, specializing in bookkeeping and tax optimization for service businesses. I help owners reduce their tax bill, stay audit-proof, and make better decisions with clean, accurate books. I’m currently taking on just one or two more clients so I can devote focused attention to delivering exceptional results. If you're looking for someone who understands how proper bookkeeping directly impacts your taxes and bottom line, let’s talk.
-    </p>
-  </section>
-
-  <section class="contact-info">
-    <h2>Let’s Talk</h2>
-    <p>If you’re ready to stop stressing about your books and want a reliable partner, I’d love to connect.</p>
-    <a href="https://calendly.com/varunsuresh" class="cta-button">Schedule a Free Consultation</a>
-    <p><strong>Phone:</strong> (510) 378-3190</p>
-    <p><strong>Email:</strong> <a href="mailto:atlasprobookkeeping@gmail.com">atlasprobookkeeping@gmail.com</a></p>
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Want to get your books in order and save more on taxes? Let’s talk.</p>
+    <p><a href="#book" class="button">Book a Free Call</a></p>
   </section>
 
   <footer>
