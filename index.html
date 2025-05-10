@@ -10,23 +10,30 @@
       font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
+      line-height: 1.75;
       background-color: #f9fafb;
-      color: #111827;
+      color: #1f2937;
     }
     header {
       background-color: #1f2937;
       color: white;
-      padding: 1.5rem;
+      padding: 1.5rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
     nav a {
       margin-left: 1.5rem;
       color: white;
       text-decoration: none;
       font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #93c5fd;
     }
     .hero {
       background-color: #e5e7eb;
@@ -34,7 +41,7 @@
       text-align: center;
     }
     .hero h1 {
-      font-size: 2.5rem;
+      font-size: 2.75rem;
       margin-bottom: 1rem;
     }
     .hero p {
@@ -49,6 +56,10 @@
       border-radius: 0.375rem;
       text-decoration: none;
       font-weight: 600;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #1d4ed8;
     }
     .section {
       padding: 3rem 2rem;
@@ -57,13 +68,17 @@
     }
     .section h2 {
       font-size: 2rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      color: #111827;
     }
     .section ul {
-      padding-left: 1.25rem;
+      padding-left: 1.5rem;
     }
     .section ul li {
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .section p {
+      margin-bottom: 1.25rem;
     }
     .calendly-inline-widget {
       width: 100%;
@@ -74,8 +89,9 @@
       background-color: #1f2937;
       color: white;
       text-align: center;
-      padding: 1rem;
+      padding: 1.25rem 2rem;
       font-size: 0.875rem;
+      margin-top: 3rem;
     }
   </style>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
@@ -93,19 +109,19 @@
   </header>
 
   <section class="hero">
-    <h1>Bookkeeping to Minimze Taxes and Maximize Upside</h1>
-    <p>Serving home service pros in plumbing, HVAC, and beyond.</p>
+    <h1>Bookkeeping That Lowers Your Taxes and Lifts Your Burden</h1>
+    <p>Built for busy contractors in plumbing, HVAC, and electrical.</p>
     <a href="#book" class="button">Book a Free Call</a>
   </section>
 
   <section class="section" id="services">
     <h2>Services</h2>
     <ul>
-      <li><strong>Monthly Bookkeeping</strong> – Reconciliation, categorization, financial reporting</li>
-      <li><strong>Catch-Up & Clean-Up Projects</strong> – Fast turnaround for backlogged books</li>
-      <li><strong>Tax Strategy Planning</strong> – Optional quarterly strategy sessions</li>
+      <li><strong>Monthly Bookkeeping</strong> – Bank reconciliation, categorization, monthly reports</li>
+      <li><strong>Catch-Up & Clean-Up Projects</strong> – For when you’re behind and need fast clarity</li>
+      <li><strong>Tax Strategy Planning</strong> – Quarterly sessions to legally lower your tax bill</li>
     </ul>
-    <p>Most clients pay $300–$600/month. Let's customize a plan that fits your business.</p>
+    <p>Most clients pay $300–$600/month. Let’s build a plan around your needs.</p>
   </section>
 
   <section class="section" id="resources">
