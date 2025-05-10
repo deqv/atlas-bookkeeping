@@ -65,6 +65,11 @@
     .section ul li {
       margin-bottom: 0.5rem;
     }
+    .calendly-inline-widget {
+      width: 100%;
+      height: 700px;
+      border: none;
+    }
     footer {
       background-color: #1f2937;
       color: white;
@@ -73,6 +78,7 @@
       font-size: 0.875rem;
     }
   </style>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </head>
 <body>
   <header>
@@ -126,6 +132,11 @@
     <h2>Contact</h2>
     <p>Want to get your books in order and save more on taxes? Let’s talk.</p>
     <p><a href="#book" class="button">Book a Free Call</a></p>
+  </section>
+
+  <section class="section" id="book">
+    <h2>Book a Free Call</h2>
+    <div class="calendly-inline-widget" data-url="https://calendly.com/varunsuresh"></div>
   </section>
 
   <footer>
