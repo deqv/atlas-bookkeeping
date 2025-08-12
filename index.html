@@ -144,21 +144,25 @@
     <p>This coming tax season, I’ll be working alongside a top CPA in Menlo Park, serving high-net-worth clients — bringing those same strategies and standards to my own clients right now.</p>
     <p>I can only win if my clients win. The burden of proof is on me.</p>
 </section>
-
+  
 <img class="profile" src="Profile_Pic.jpg" alt="Varun">
 
 <style>
-  /* stop images from stretching */
   img.profile {
+    display: block; /* allows margin auto centering */
+    margin: 0 auto; /* centers horizontally */
     width: clamp(96px, 12vw, 160px); /* responsive but capped */
     height: clamp(96px, 12vw, 160px);
-    border-radius: 9999px;           /* circle */
-    object-fit: cover;               /* crop nicely */
+    border-radius: 9999px; /* circle */
+    object-fit: cover; /* crop nicely */
   }
 
-  /* if a global rule sets img { width:100% } somewhere: override it */
-  img.profile { width: auto; }
+  /* Ensure global rules don't force full-width */
+  img.profile {
+    max-width: 100%;
+  }
 </style>
+
 
   <section class="section" id="contact">
     <h2>Contact</h2>
