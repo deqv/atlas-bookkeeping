@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timeless Literature</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        p {
+            margin-bottom: 1.2em;
+        }
+        b {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p><b>The Dictator’s Handbook: Why Bad Behavior is Almost Always Good Politics</b> by Bruce Buena de Mesquita and Alastair Smith. Reviewed by the Wall Street Journal to be a “lucidly written, shrewdly argued meditation on how democrats and tyrants preserve political authority.” It is based on the more formal, mathematical textbook, “The Logic of Political Survival”.</p>
+
+    <p><b>The Secret Tradecraft of Elite Advisors: Covert Techniques for a Remarkable Practice</b> by David C. Baker. David’s previous book, “The Business of Expertise”, sets the stage by suggesting a narrow focus and then capitalizing on the patterns that emerge from repeated application of your expertise. “What’s so compelling about Mr. Baker is that he’s an expert on being an expert.”</p>
+
+    <p><b>Damodaran on Valuation: Security Analysis for Investment and Corporate Finance</b> by Aswath Damodaran is a comprehensive guide to valuation principles and techniques, suitable for both investment and corporate finance professionals. In order to be a successful CEO, corporate strategist, or analyst, understanding the valuation process is a necessity.</p>
+
+    <p><b>Principles for Navigating Big Debt Crises</b> by Ray Dalio. Ben Bernanke, the former Chair of the Federal Reserve of the United States of America said, “Ray Dalio’s excellent study provides an innovative way of thinking about debt crises and the policy response.” The book provides a framework for understanding and navigating economic downturns caused by excessive debt.</p>
+
+    <p><b>Debt: The First 5,000 Years</b> by Dan Graeber. “Graeber shows that arguments about debt and debt forgiveness have been at the center of political debates from Italy to China, as well as sparking innumerable insurrections. He also brilliantly demonstrates that the language of the ancient works of law and religion (words like “guilt,” “sin,” and “redemption”) derive in large part from ancient debates about debt, and shape even our most basic ideas of right and wrong. We are still fighting these battles today without knowing it.”</p>
+
+    <p><b>On Killing: The Psychological Cost of Learning to Kill in War and Society</b> by Dave Grossman explores the psychological impact of killing on soldiers and the techniques used to overcome the natural aversion to taking a human life. The book is recommended in the United States Marine Corps’ official reading list.</p>
+
+    <p><b>The Great Mental Models: General Thinking Concepts, Vol. 1-4</b> by Shane Parrish and Rhiannon Beaubien is a set of books that introduces readers to a collection of powerful mental models, which are frameworks for understanding how the world works and making better decisions. It is based on the latticework of theory developed by renowned American investors, Charlie Munger and Warren Buffett.</p>
+</body>
+</html>
