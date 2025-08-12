@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I Wish You Hot Pockets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <p>I’ve learned a lot about money..</p>
+
+    <p>In the past, I trained in skills that could have been used for the wrong kind of transactions. I didn’t get far, but I learned something important: it feels a lot better when both sides of a deal can shake hands, look each other in the eye, and say, “Thank you.”</p>
+
+    <p>That’s the way I work now. Win-win. No games, no one-sided wins, just mutual benefit.</p>
+
+    <p>In India, there’s a phrase — “Hot Pockets” — that means wealth and freedom. I wish hot pockets for my clients, because their success is mine.</p>
+
+    <p>As an accountant-in-training, my promise is simple:</p>
+
+    <ul>
+        <li>• <b>Quarterly meetings</b> where I explain your financials in plain language.</li>
+        <li>• <b>Clean, accurate books</b> so you know where you stand at all times.</li>
+        <li>• <b>Loyalty and discretion</b>, because your business is your livelihood — and your privacy matters.</li>
+        <li>• <b>Action over words</b>, proven by results.</li>
+    </ul>
+
+    <p>I believe in loyalty, gratitude, and making sure my clients feel stronger and more secure after working with me. If we do this right, we both walk away richer — not just in money, but in trust.</p>
+
+    <p><b>I wish you hot pockets.</b></p>
+</body>
+</html>
